@@ -31,4 +31,7 @@ trigger.sql
 python3 main.py
 ```
 5. Click on the link generated to view the application in the browser.
+```bash
+http:127.0.0.1:5000
+```
 
