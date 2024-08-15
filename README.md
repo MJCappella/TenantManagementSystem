@@ -27,5 +27,8 @@ procedures.sql
 trigger.sql
 ```
 4. Run the main file of tthe project to start the application - main.py
+```bash
+python3 main.py
+```
 5. Click on the link generated to view the application in the browser.
 
