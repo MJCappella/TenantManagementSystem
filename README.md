@@ -16,9 +16,6 @@ pip install -r requirements.txt
 ### How to Run the Project
 1. Fork the repo and open the project directory.
 2. Run all the sql scripts in the database folder to create the database and its tables.
-3. Start the following two processes in **XAMPP** once it has been installed and loaded:
-   * **Apache Webserver** - to serve HTTP requests.
-   * **MySQL Server** - the database server.
-4. Navigate to main.py file and run the file in VSCode.
-5. Click on the link generated to run the project.
+3. Run the main file of tthe project to start the application - main.py
+4. Click on the link generated to view the application in the browser.
 
