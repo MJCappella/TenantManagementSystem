@@ -9,16 +9,23 @@ Apartment Rental Management System is based on searching the apartments availabl
 * Database - MySql
 ### Requirements
 The source code of this project is written in Python. So, You'll require the following to run this project
-* Install libraries and dependencies listed in **requirements.txt**
-```bash
-pip install -r requirements.txt
-```
+
 ### How to Run the Project
 1. Fork the repo and open the project directory.
 ```bash
 git clone https://github.com/MJCappella/TenantManagementSystem.git
 ```
-2. Run all the sql scripts in the database folder to create the database and its tables.
-3. Run the main file of tthe project to start the application - main.py
-4. Click on the link generated to view the application in the browser.
+2. Install libraries and dependencies listed in **requirements.txt**
+```bash
+pip install -r requirements.txt
+```
+3. Run all the sql scripts in the database folder to create the database and its tables.
+```bash
+1.creation.sql
+2.insertion.sql
+3.procedures.sql
+4.trigger.sql
+```
+4. Run the main file of tthe project to start the application - main.py
+5. Click on the link generated to view the application in the browser.
 
