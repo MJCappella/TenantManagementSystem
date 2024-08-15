@@ -11,16 +11,15 @@ import shutil
 
 app = Flask(__name__)
 
-# Change this to your secret key (can be anything, it's for extra protection)
 # app.secret_key = 'your secret key'
 app.secret_key = "apartment_rental"
 
 #code for connection
-app.config['MYSQL_HOST'] = 'localhost' #hostname
-app.config['MYSQL_USER'] = 'root' #username
-app.config['MYSQL_PASSWORD'] = '1234' #password
-#in my case password is null so i am keeping empty
-app.config['MYSQL_DB'] = 'apartmentrental' #database name
+app.config['MYSQL_HOST'] = 'localhost' 
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = '1234' 
+app.config['MYSQL_DB'] = 'apartmentrental' 
+
 # Intialize MySQL
 mysql = MySQL(app)
            
