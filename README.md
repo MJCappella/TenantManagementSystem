@@ -14,7 +14,7 @@ The source code of this project is written in Python. So, You'll require the fol
 pip install -r requirements.txt
 ```
 ### How to Run the Project
-1. Fork the repo and open the folder in your VSCode.
+1. Fork the repo and open the project directory.
 2. Run all the sql script in the database folder to create the tables.
 3. Start the following two processes in **XAMPP** once it has been installed and loaded:
    * **Apache Webserver** - to serve HTTP requests.
