@@ -58,9 +58,9 @@ def TenantLogin() :
         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
         cursor.execute('SELECT * FROM TENANT WHERE EMAIL = % s AND PSWD = % s', (username, password, ))
         account = cursor.fetchone()
-        # If account exists in TENANT table in out database
+        
+        # If account exists in TENANT table in the database
         if account:
-            # Create session data, we can access this data in other routes
             session['loggedin'] = True
             session['id'] = account['T_ID']
             session['username'] = account['EMAIL']
