@@ -18,9 +18,9 @@ app.secret_key = "apartment_rental"
 #code for connection
 app.config['MYSQL_HOST'] = 'localhost' #hostname
 app.config['MYSQL_USER'] = 'root' #username
-app.config['MYSQL_PASSWORD'] = '' #password
+app.config['MYSQL_PASSWORD'] = '1234' #password
 #in my case password is null so i am keeping empty
-app.config['MYSQL_DB'] = 'apartmentRental' #database name
+app.config['MYSQL_DB'] = 'apartmentrental' #database name
 # Intialize MySQL
 mysql = MySQL(app)
            
@@ -415,7 +415,7 @@ def Details() :
         aptNo = request.form['aptNo']
         TFatherName = request.form['TFatherName']
         PAddress = request.form['PerAddr']
-        cursor.execute('SELECT T_ID FROM TENANT WHERE EMAIL= % s',(Uname,))
+        cursor.execute('SELECT T_ID FROM TENANT WHERE EMAIL= %s',(Uname,))
         mysql.connection.commit()
         tid_list1 = cursor.fetchone()
         t_id = tid_list1['T_ID']
