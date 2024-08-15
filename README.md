@@ -21,10 +21,10 @@ pip install -r requirements.txt
 ```
 3. Run all the sql scripts in the database folder to create the database and its tables.
 ```bash
-1.creation.sql
-2.insertion.sql
-3.procedures.sql
-4.trigger.sql
+creation.sql
+insertion.sql
+procedures.sql
+trigger.sql
 ```
 4. Run the main file of tthe project to start the application - main.py
 5. Click on the link generated to view the application in the browser.
